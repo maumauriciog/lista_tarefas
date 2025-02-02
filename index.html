@@ -4,12 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <title>Lista de Tarefas</title>
 </head>
 
 <body>
-
-    <script src="./script.js"
+    <div class="container">
+        <div class="container__text">
+            <h1 class="text title">Lista de Tarefas</h1>
+        </div>
+        <form>
+            <input type="text" min="1" maxlength="100" placeholder="escreva aqui uma tarefa...">
+            <button id="btn-add" class="btn-adicionar" type="submit">Adicionar</button>
+        </form>
+    </div>
+    <script src="./script.js">
+    </script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </body>
 
