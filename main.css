@@ -64,4 +64,5 @@ button:hover{
 .container ul li {
     margin-top: 10px;
     color: rgb(39, 129, 73);
+    cursor: pointer;
 }

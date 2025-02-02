@@ -5,11 +5,8 @@ $(document).ready(function () {
         e.preventDefault();
         var tarefa = $('#tarefa').val();
 
-        console.log(tarefa);
-        $('#lista-tarefas').append(`<li id="nr${nrTarefa}">${tarefa}</li>`);
-
+        $('#lista-tarefas').append(`<li id="#nr${nrTarefa}">${tarefa}</li>`);
         nrTarefa +=1;
-        console.log(nrTarefa);
     })
 })
 
