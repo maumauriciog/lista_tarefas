@@ -5,10 +5,10 @@ $(document).ready(function () {
         var tarefa = $('#tarefa').val().trim();
 
         var itemTarefa = $(`<li>${tarefa}</li>`);
-        $(itemTarefa).appendTo('ul');
+        $(itemTarefa).appendTo('#ulTarefas');
         $('#tarefa').val('');
 
-        $('#ul-tarefas').on('click', 'li', function () {
+        $('#ulTarefas').on('click', 'li', function () {
             $(this).toggleClass('done');
         });
     })
