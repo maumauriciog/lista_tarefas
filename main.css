@@ -37,7 +37,7 @@ input{
     border: 0;
     border-radius: 8px;
     padding: 8px;
-    width: 554px;
+    width: 509px;
 }
 
 input:hover {
@@ -67,6 +67,6 @@ button:hover{
     cursor: pointer;
 }
 
-.container li.done {
+li.done {
     text-decoration: line-through;
 }

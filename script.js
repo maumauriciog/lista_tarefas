@@ -1,18 +1,18 @@
 $(document).ready(function () {
-    let valor = 1;
 
     $('form').on('submit', function (e) {
         e.preventDefault();
-        valor += 1;
         var tarefa = $('#tarefa').val().trim();
 
         var itemTarefa = $(`<li>${tarefa}</li>`);
         $(itemTarefa).appendTo('ul');
+        $('#tarefa').val('');
 
-        $('#taskList').on('click', function () {
-            $('li').toggleClass('done');
+        $('#ul-tarefas').on('click', 'li', function () {
+            $(this).toggleClass('done');
         });
     })
 
 })
+
 
