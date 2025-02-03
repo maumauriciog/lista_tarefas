@@ -66,3 +66,7 @@ button:hover{
     color: rgb(39, 129, 73);
     cursor: pointer;
 }
+
+.container li.done {
+    text-decoration: line-through;
+}
